@@ -4,6 +4,12 @@ Este repositório tem como finalidade abrigar a documentação, juntamente com a
 
 # Estrutura
 
+- [Classificacao_Risco_ORSD.pdf](Classificacao_Risco_ORSD.pdf): Documento de Especificação de Requisitos de Ontologias (ORSD), detalha os objetivos, o escopo, requisitos funcionais e não funcionais que guiaram o desenvolvimento da ontologia.
+- [AIRiskAssesment.vpp](AIRiskAssesment.vpp): Projeto no Visual Paradigm, contém a modelagem do diagrama de conceitos utilizando a linguagem OntoUML 
+- [img/AI Agent.jpg](img/AI%20Agent.jpg): Diagrama de classes focado no conceito dos Agentes de IA de acordo com o Eu AI Act.
+- [img/AI System View.jpg](img/AI%20System%20View.jpg): Diagrama de classes focado no conceito do sistema de IA.
+- [img\Risk View.jpg](img/Risk%20View.jpg): Diagrama de classes focado no conceito de Risco.
+
 
 # 📄 ORSD - Ontology Requirements Specification Document: Gerenciamento de Riscos de Inteligência Artificial
 ## Propósito (Purpose)
@@ -42,7 +48,28 @@ A ontologia será implementada usando OntoUML.
 1. A ontologia deve representar a classificação de sistemas de IA em diferentes categorias de risco.
 2. A ontologia deve permitir a associação de um risco a um ou mais componentes do sistema de IA (por exemplo, dados de treinamento enviesados).
 
-## Referencias
+## Visões da ontologia
+
+**Visão dos agentes de IA:**
+
+![Agentes de IA](img/AI%20Agent.jpg)
+
+**Visão do sistema de IA**
+
+![Sistema de IA](img/AI%20System%20View.jpg)
+
+**Visão de Risco**
+
+![Risco](img/Risk%20View.jpg)
+
+# Desenvolvedores:
+
+- [Joás Gabriel Barros de Sousa](https://github.com/joas-barros)
+- [Rafael Araujo Abreu de Oliveira](https://github.com/araujorafael9201)
+- [Tácio Felipe Leite Maia](https://github.com/TacioMaia)
+
+# Referencias
+
 - [Truly Risk-based Regulation of Artificial Intelligence How to Implement the EU’s AI Act](https://www.cambridge.org/core/journals/european-journal-of-risk-regulation/article/truly-riskbased-regulation-of-artificial-intelligence-how-to-implement-the-eus-ai-act/E526C1D0D7368F9691082220609D60F4)
 - [Taxonomy to Regulation: A (Geo)Political Taxonomy for AI Risks and Regulatory Measures in the EU AI Act](https://arxiv.org/abs/2404.11476)
 - [Artificial Intelligence Risk Management Framework (AI RMF 1.0)](https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf)
