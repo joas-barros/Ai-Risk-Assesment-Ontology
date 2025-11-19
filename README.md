@@ -1,3 +1,10 @@
+# Ontologia para Gerenciamento de Risco em Sistemas de IA
+
+Este repositório tem como finalidade abrigar a documentação, juntamente com a modelagem e construção de uma ontologia para gerenciamento de Riscos em Sistemas de IA com base nas principais normas e projetos de lei sobre o assunto, como NIST e EU AI Act.
+
+# Estrutura
+
+
 # 📄 ORSD - Ontology Requirements Specification Document: Gerenciamento de Riscos de Inteligência Artificial
 ## Propósito (Purpose)
 A ontologia é projetada para fornecer uma representação formal e estruturada do conhecimento relacionado ao Gerenciamento de Riscos de Inteligência Artificial (IA), com o objetivo de auxiliar profissionais e organizações a identificar, avaliar, tratar e monitorar os riscos inerentes aos sistemas de IA. O objetivo é promover a transparência, a responsabilidade e a conformidade regulatória ao longo do ciclo de vida da IA.
