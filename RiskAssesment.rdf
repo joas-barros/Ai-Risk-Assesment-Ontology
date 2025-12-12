@@ -1,0 +1,780 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9/"
+     xml:base="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#can_cause_harm -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#can_cause_harm"/>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#componentOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#componentOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#concerns -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#concerns">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#mediation"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Lifecycle"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_System"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#has_impact -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#has_impact"/>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#has_phase -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#has_phase"/>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#has_probability -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#has_probability"/>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#has_quality -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#has_quality"/>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#has_requirement -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#has_requirement"/>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#has_risk -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#has_risk"/>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#has_role -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#has_role"/>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#has_training_data -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#has_training_data">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#has_type -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#has_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#manages -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#manages">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#mediation"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Lifecycle"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_Value_Chain"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#mediation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#mediation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#regulates -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#regulates"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_Actor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_Actor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Kind"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_Actor_Role -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_Actor_Role">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Role"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_Agent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_Agent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Category"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_Operator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_Operator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_Actor"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#has_role"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_Actor_Role"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_Regulator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_Regulator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_Actor"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#regulates"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_Operator"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_Risk_Impact -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_Risk_Impact">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#High_Impact"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Low_Impact"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Category"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_Risk_Probability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_Risk_Probability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Category"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_System -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_System">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Kind"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#has_phase"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_System_Phase"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#has_requirement"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_System_Requirement"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#has_training_data"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Training_Data"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#has_type"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_System_Type"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_System_Harm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_System_Harm">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Harm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_System_Phase -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_System_Phase">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Deployed"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#In_Development"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Under_Validation"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Phase"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_System_Requirement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_System_Requirement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Mode"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_System_Type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_System_Type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Mode"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_Value_Chain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_Value_Chain">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Kind"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#componentOf"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Authorized_Representative"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#componentOf"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Deployer"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#componentOf"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Distributor"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#componentOf"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Importer"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#componentOf"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Provider"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#componentOf"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Authorized_Representative"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Deployer"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Distributor"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Importer"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Provider"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Accountable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Accountable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_System_Requirement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Authorized_Representative -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Authorized_Representative">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_Actor_Role"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Biased -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Biased">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Training_Data_Quality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Category -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Category"/>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Classifier -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Classifier">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_System_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Deployed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Deployed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_System_Phase"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Deployer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Deployer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_Actor_Role"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Discrimination -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Discrimination">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_System_Harm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Distributor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Distributor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_Actor_Role"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Explainable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Explainable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_System_Requirement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Fair -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Fair">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_System_Requirement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Generator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Generator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_System_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Harm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Harm">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Category"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#High_Impact -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#High_Impact">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_Risk_Impact"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Low_Impact"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#High_Probability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#High_Probability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_Risk_Probability"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Low_Probability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#High_Risk_AI_System -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#High_Risk_AI_System">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_System"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#can_cause_harm"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Injury_Or_Death"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Importer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Importer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_Actor_Role"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#In_Development -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#In_Development">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_System_Phase"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Infringes_Intelectual_Propriety -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Infringes_Intelectual_Propriety">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Training_Data_Quality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Injury_Or_Death -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Injury_Or_Death">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_System_Harm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Kind -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Kind"/>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Lifecycle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Lifecycle">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Relator"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#mediation"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_System"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#mediation"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_Value_Chain"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#mediation"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_System"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_Value_Chain"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#concerns"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_System"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#manages"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_System"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Low_Impact -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Low_Impact">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_Risk_Impact"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Low_Probability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Low_Probability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_Risk_Probability"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Low_Reliability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Low_Reliability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_System_Harm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Low_Risk_AI_System -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Low_Risk_AI_System">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_System"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#has_impact"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Low_Impact"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#has_probability"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Low_Probability"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Mode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Mode"/>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Phase -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Phase"/>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Poisoned -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Poisoned">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Training_Data_Quality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Privacy_Enhanced -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Privacy_Enhanced">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_System_Requirement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Privacy_Harm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Privacy_Harm">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_System_Harm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Provider -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Provider">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_Actor_Role"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Quality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Quality"/>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Recommender -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Recommender">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_System_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Relator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Relator"/>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Role -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Role"/>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Safe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Safe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_System_Requirement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Secure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Secure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_System_Requirement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Training_Data -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Training_Data">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Category"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#has_quality"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Training_Data_Quality"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Training_Data_Quality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Training_Data_Quality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Quality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Unacceptable_Risk_AI_System -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Unacceptable_Risk_AI_System">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_System"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#can_cause_harm"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_System_Harm"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#has_impact"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#High_Impact"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#has_probability"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#High_Probability"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Under_Validation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Under_Validation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#AI_System_Phase"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Authorized_Representative"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Deployer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Distributor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Importer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Provider"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Classifier"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Generator"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Recommender"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Deployed"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#In_Development"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/aluno.ufersa/ontologies/2025/11/untitled-ontology-9#Under_Validation"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
