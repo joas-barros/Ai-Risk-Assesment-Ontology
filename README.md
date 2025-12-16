@@ -6,9 +6,10 @@ Este repositório tem como finalidade abrigar a documentação, juntamente com a
 
 - [Classificacao_Risco_ORSD.pdf](Classificacao_Risco_ORSD.pdf): Documento de Especificação de Requisitos de Ontologias (ORSD), detalha os objetivos, o escopo, requisitos funcionais e não funcionais que guiaram o desenvolvimento da ontologia.
 - [AIRiskAssesment.vpp](AIRiskAssesment.vpp): Projeto no Visual Paradigm, contém a modelagem do diagrama de conceitos utilizando a linguagem OntoUML 
+- [RiskAssesment.rdf](RiskAssesment.rdf): Arquivo da ontologia em OWL.
 - [img/AI Agent.jpg](img/AI%20Agent.jpg): Diagrama de classes focado no conceito dos Agentes de IA de acordo com o Eu AI Act.
 - [img/AI System View.jpg](img/AI%20System%20View.jpg): Diagrama de classes focado no conceito do sistema de IA.
-- [img\Risk View.jpg](img/Risk%20View.jpg): Diagrama de classes focado no conceito de Risco.
+- [img/Risk View.jpg](img/Risk%20View.jpg): Diagrama de classes focado no conceito de Risco.
 
 
 # 📄 ORSD - Ontology Requirements Specification Document: Gerenciamento de Riscos de Inteligência Artificial
@@ -23,7 +24,7 @@ A ontologia abrange o conhecimento formal e prático relacionado ao Gerenciament
 - Mapeamento de requisitos e processos para garantir o uso seguro de sistemas de IA
 
 ## Linguagens de Implementação (Implementation Languages)
-A ontologia será implementada usando OntoUML.
+A ontologia será implementada usando OntoUML e Web Ontology Language (OWL).
 
 ## Usuários Finais Pretendidos (Intended End-Users)
 1. Profissionais de Risco e Conformidade que supervisionam a implantação de IA.
@@ -61,6 +62,14 @@ A ontologia será implementada usando OntoUML.
 **Visão de Risco**
 
 ![Risco](img/Risk%20View.jpg)
+
+# Hierarquia de classes no OWL
+
+![first](img/first_hierarchy.png)
+
+![second](img/second_hierarchy.png)
+
+![third](img/third_hierarchy.png)
 
 # Desenvolvedores:
 
